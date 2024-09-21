@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: ping
+    maxRequestsPerSecond: 2
+
+server:
+  port: 8080
+  pong:
+    url: http://localhost:8090/pong
+  lock:
+    path: /ping.lock
+
+
+logging:
+  level:
+    root: INFO
+    com.liuzhijun: DEBUG  # ?????????????????
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - [%thread] %-5level %logger{36} - %msg%n"  # ???????
+  file:
+    name: logs/${spring.application.name}.log  # ??????
+    pattern: "%d{yyyy-MM-dd HH:mm:ss} - [%thread] %-5level %logger{36} - %msg%n"  # ??????

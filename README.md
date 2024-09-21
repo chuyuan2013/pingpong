@@ -1,6 +1,6 @@
 # PingPong
 
-This project contains ping and pong two modules , using C/S architecture style , ping microservice is the client , pong microservice is the server . Build the project using springboot and Java, groovy as a test case language. Specific version details are listed in the table below:
+This project contains **ping** and **pong** two modules , using C/S architecture style , **ping** microservice is the client , **pong** microservice is the server . Build the project using **springboot** and **Java**, **groovy** as a test case language. Specific version details are listed in the table below:
 
 #### 1.System module
 
